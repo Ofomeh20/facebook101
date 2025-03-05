@@ -28,7 +28,8 @@
         username VARCHAR(255) NOT NULL,
         gender VARCHAR(50) NOT NULL,
         location VARCHAR(50),
-        rel_status VARCHAR(50)
+        rel_status VARCHAR(50),
+        user_id VARCHAR(255) UNIQUE NOT NULL
     )
   ";
   $conn->query($profile_table);
