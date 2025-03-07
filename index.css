@@ -2,3 +2,67 @@
   box-shadow: 2px 2px 2px 2px rgb(190, 190, 190);
   border: 1px solid grey;
 }
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.profile-container {
+  margin-top: 50px;
+  text-align: center;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50px;
+  border: 2px solid #333;
+  object-fit: cover;
+}
+.container {
+  width: 50%;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+.form-group textarea {
+  resize: vertical;
+}
+.dob-group {
+  display: flex;
+  justify-content: space-between;
+}
+.dob-group select {
+  width: 32%;
+}
+.submit-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.submit-btn:hover {
+  background-color: #45a049;
+}

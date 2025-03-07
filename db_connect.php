@@ -26,6 +26,7 @@
   CREATE TABLE IF NOT EXISTS profile (
         id INT AUTO_INCREMENT PRIMARY KEY,
         username VARCHAR(255) NOT NULL,
+        profile_pic VARCHAR(255),
         gender VARCHAR(50) NOT NULL,
         location VARCHAR(50),
         rel_status VARCHAR(50),
